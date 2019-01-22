@@ -1,6 +1,6 @@
 {
   "name": "@visuallylab/tslint-config-frontend",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Lint rules related to web frontend development using  React",
   "main": "tslint.json",
   "scripts": {
@@ -16,7 +16,7 @@
   "keywords": [
     "tslint"
   ],
-  "author": "",
+  "author": "jcli",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/visuallylab/tslint-config-frontend/issues"
