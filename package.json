@@ -1,6 +1,6 @@
 {
   "name": "@visuallylab/tslint-config-frontend",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Lint rules related to web frontend development using  React",
   "main": "tslint.json",
   "files": [
