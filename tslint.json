@@ -2,7 +2,6 @@
   "extends": ["tslint:latest", "tslint-react", "tslint-config-prettier"],
   "rules": {
     "curly": true,
-    "semicolon": true,
     "class-name": true,
     "jsx-no-lambda": false,
     "member-access": false,
@@ -15,10 +14,7 @@
     "interface-over-type-literal": false,
     "no-angle-bracket-type-assertion": false,
     "no-object-literal-type-assertion": false,
-    "quotemark": [true, "single", "jsx-double"],
     "no-namespace": [true, "allow-declarations"],
-    "arrow-parens": [true, "ban-single-arg-parens"],
-    "object-literal-key-quotes": [true, "as-needed"],
     "variable-name": [true, "ban-keywords", "allow-leading-underscore"]
   }
 }

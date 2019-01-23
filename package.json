@@ -1,8 +1,11 @@
 {
   "name": "@visuallylab/tslint-config-frontend",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Lint rules related to web frontend development using  React",
   "main": "tslint.json",
+  "scripts": {
+    "tslint-check": "tslint-config-prettier-check ./tslint.json"
+  },
   "files": [
     "tslint.json"
   ],
@@ -22,5 +25,9 @@
   "dependencies": {
     "tslint-react": "^3.6.0",
     "tslint-config-prettier": "^1.17.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.4"
   }
 }
