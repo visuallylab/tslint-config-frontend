@@ -1,11 +1,8 @@
 {
   "name": "@visuallylab/tslint-config-frontend",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Lint rules related to web frontend development using  React",
   "main": "tslint.json",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "files": [
     "tslint.json"
   ],
@@ -22,7 +19,10 @@
     "url": "https://github.com/visuallylab/tslint-config-frontend/issues"
   },
   "homepage": "https://github.com/visuallylab/tslint-config-frontend#readme",
-  "devDependencies": {
+  "dependencies": {
     "tslint-react": "^3.6.0"
+  },
+  "devDependencies": {
+    "tslint-config-prettier": "^1.17.0"
   }
 }
