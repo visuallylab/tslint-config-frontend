@@ -1,6 +1,6 @@
 {
   "name": "@visuallylab/tslint-config-frontend",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Lint rules related to web frontend development using  React",
   "main": "tslint.json",
   "files": [
@@ -20,9 +20,7 @@
   },
   "homepage": "https://github.com/visuallylab/tslint-config-frontend#readme",
   "dependencies": {
-    "tslint-react": "^3.6.0"
-  },
-  "devDependencies": {
+    "tslint-react": "^3.6.0",
     "tslint-config-prettier": "^1.17.0"
   }
 }
