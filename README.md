@@ -12,6 +12,10 @@ Follow these steps to use the rules in tslint, and enable the pre-commit hook.
 ```
 npm install --save-dev @visuallylab/tslint-config-frontend lint-staged husky
 ```
+or
+```
+yarn add --dev @visuallylab/tslint-config-frontend lint-staged husky
+```
 2. Add config in tslint.json
 ```
 {
