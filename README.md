@@ -35,7 +35,8 @@ yarn add --dev @visuallylab/tslint-config-frontend lint-staged husky
   },
   "prettier": {
   "singleQuote": true,
-  "jsxSingleQuote": false
+  "jsxSingleQuote": false,
+  "trailingComma": "all"
   }
 }
 ``` 
